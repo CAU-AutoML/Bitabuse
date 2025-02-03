@@ -12,6 +12,10 @@ We used the Character BERT tokenizer and trained the BERT model from scratch on 
 
 ## 2. Experiments
 
+### 2.0. Dataset
+
+You can download the datasets from the following link: [Bitabuse](https://huggingface.co/datasets/AutoML/bitaubse), [Bitviper](https://huggingface.co/datasets/AutoML/bitviper), [Bitcore](https://huggingface.co/datasets/AutoML/bitcore).
+
 ### 2.1. `infer_ocr_and_simchar.py`
 
 We used an OCR and SimChar Database-based model to restore the perturbed text and saved the results as a CSV file in the "output" folder.
